@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+}
+
+.img-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+   
+    border-radius: 50%;
+}
+.card{
+    border: 0px !important;
+}
+.td-containar{
+    display: flex;
+ 
+    align-items: center;
+}
+
+.td-containar > img{
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.td-containars > img{
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.number-stat{
+    margin-left: 10px;
+    height:50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.number{
+    margin-top: -3px;
+    font-size: 30px;
+    
+}
+.next{
+    margin-top: -5px;
+    
+}
